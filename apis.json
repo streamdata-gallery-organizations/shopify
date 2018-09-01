@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Shopify",
+	"description": "This is a repository of shopify APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/shopify.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-31",
+	"url": "http://shopify.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Shopify",
+			"x-api-slug": "shopify",
+			"description": "Shopify is a commerce platform that allows anyone to easily sell online at a retail location and everywhere in between. It offers a professional online storefront, a payment solution to accept credit cards, and the Shopify POS application to power retail sales.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png",
+			"humanURL": "https://www.shopify.com/",
+			"baseURL": "https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//",
+			"tags": "Shopify",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/shopify/master/_listings/shopify/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Shopify",
+	"include": [
+		{
+			"name": "Shopify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/shopify/master/_listings/shopify/apis.yaml"
+		}
+	]
+}
